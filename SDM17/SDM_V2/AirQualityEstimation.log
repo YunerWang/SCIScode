@@ -1,0 +1,459 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.11)  16 OCT 2016 14:45
+entering extended mode
+**E:/latexworkspace/SDM_V2/AirQualityEstimation.tex
+(E:/latexworkspace/SDM_V2/AirQualityEstimation.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for loaded.
+(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\CTEX\MiKTeX\tex\latex\base\leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+(D:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(E:\latexworkspace\SDM_V2\ltexpprt.sty
+*** ACM/SIAM LaTeX2E Preprint Series macro package, version 1.0, September 5, 1
+996 ***
+\outerparskip=\skip43
+\c@@theorem=\count87
+\c@@algorithm=\count88
+\c@lemma=\count89
+\c@fact=\count90
+\c@corollary=\count91
+\c@axiom=\count92
+\c@cond=\count93
+\c@property=\count94
+\c@proposition=\count95
+\c@Conjecture=\count96
+\c@Definition=\count97
+\c@Lemma=\count98
+\c@Remark=\count99
+) (D:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2010/11/26 v0.05c Graphics/color for pdfTeX
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(D:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen105
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen106
+\subfiglabelskip=\skip47
+\c@subfigure=\count101
+\c@lofdepth=\count102
+\c@subtable=\count103
+\c@lotdepth=\count104
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(D:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip10
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks17
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen116
+)
+(D:\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(D:\CTEX\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(D:\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(D:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count118
+)
+(D:\CTEX\MiKTeX\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count119
+\c@ALC@line=\count120
+\c@ALC@rem=\count121
+\c@ALC@depth=\count122
+\ALC@tlm=\skip53
+\algorithmicindent=\skip54
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(D:\CTEX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks24
+\extratabsurround=\skip55
+\backup@length=\skip56
+)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count123
+\TX@ftn=\toks25
+)
+(D:\CTEX\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen124
+\lightrulewidth=\dimen125
+\cmidrulewidth=\dimen126
+\belowrulesep=\dimen127
+\belowbottomsep=\dimen128
+\aboverulesep=\dimen129
+\abovetopsep=\dimen130
+\cmidrulesep=\dimen131
+\cmidrulekern=\dimen132
+\defaultaddspace=\dimen133
+\@cmidla=\count124
+\@cmidlb=\count125
+\@aboverulesep=\dimen134
+\@belowrulesep=\dimen135
+\@thisruleclass=\count126
+\@lastruleclass=\count127
+\@thisrulewidth=\dimen136
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+) (D:\CTEX\MiKTeX\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+) (E:\latexworkspace\SDM_V2\AirQualityEstimation.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen137
+\scratchbox=\box30
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen138
+\MPnumerator=\count132
+\everyMPtoPDFconversion=\toks27
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+ (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 49.
+
+(D:\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+LaTeX Warning: Citation `Hsieh2015Inferring' on page 1 undefined on input line 
+56.
+
+
+LaTeX Warning: Citation `Grover2015A' on page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Zhang2012Real' on page 1 undefined on input line 56.
+
+<pictures/equipment.png, id=1, 493.845pt x 160.34906pt>
+File: pictures/equipment.png Graphic file (type png)
+
+<use pictures/equipment.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+
+
+ <E:/latexworkspace/SDM_V2/pictures/equipment.png>]
+
+LaTeX Warning: Citation `Waylang' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Citation `zhang2008online' on page 2 undefined on input line 83.
+
+
+
+LaTeX Warning: Citation `Pfender2006Use' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation `odeh1995further' on page 2 undefined on input line 85.
+
+
+
+LaTeX Warning: Citation `rasmussen2006gaussian' on page 2 undefined on input li
+ne 85.
+
+
+LaTeX Warning: Citation `guizilini2015nonparametric' on page 2 undefined on inp
+ut line 86.
+
+
+LaTeX Warning: Citation `Nguyen2008Local' on page 2 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation `Hasenfratz2015Deriving' on page 2 undefined on input l
+ine 88.
+
+
+LaTeX Warning: Citation `Devarakonda2013Real' on page 2 undefined on input line
+ 88.
+
+
+LaTeX Warning: Citation `Jutzeler2014A' on page 2 undefined on input line 88.
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 the mean func-tion $\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm
+/b/it/10 x\OT1/cmr/m/n/10 )$ and the k-er-nel func-tion
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+<pictures/kd-tree.png, id=22, 789.6702pt x 541.5432pt>
+File: pictures/kd-tree.png Graphic file (type png)
+
+<use pictures/kd-tree.png>
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+ [3 <E:/latexworkspace/SDM_V2/pictures/kd-tree.png>]
+
+LaTeX Warning: Citation `Wilson2013Gaussian' on page 4 undefined on input line 
+190.
+
+<pictures/Sampling.png, id=29, 963.6pt x 578.16pt>
+File: pictures/Sampling.png Graphic file (type png)
+ <use pictures/Sampling.png>
+[4]
+Underfull \hbox (badness 1158) in paragraph at lines 232--234
+\OT1/cmr/m/n/10 we use the av-er-age re-sult-s of the k-er-nel func-tion
+ []
+
+<pictures/Framework.png, id=36, 388.8126pt x 212.4738pt>
+File: pictures/Framework.png Graphic file (type png)
+
+<use pictures/Framework.png>
+Underfull \hbox (badness 2617) in paragraph at lines 275--276
+[]\OT1/cmr/m/n/10 In our frame-work, we do not ad-just hyper-
+ []
+
+[5 <E:/latexworkspace/SDM_V2/pictures/Sampling.png> <E:/latexworkspace/SDM_V2/p
+ictures/Framework.png>]
+Overfull \hbox (0.9053pt too wide) in paragraph at lines 289--289
+[] 
+ []
+
+
+Overfull \hbox (0.9053pt too wide) in alignment at lines 288--289
+[] [] 
+ []
+
+<pictures/display.png, id=48, 970.62625pt x 795.97375pt>
+File: pictures/display.png Graphic file (type png)
+
+<use pictures/display.png>
+<pictures/recordsPerday.png, id=49, 788.19469pt x 525.46312pt>
+File: pictures/recordsPerday.png Graphic file (type png)
+
+<use pictures/recordsPerday.png>
+<pictures/recordsOneday.png, id=50, 788.19469pt x 538.26094pt>
+File: pictures/recordsOneday.png Graphic file (type png)
+
+<use pictures/recordsOneday.png> [6]
+<pictures/kappa.png, id=55, 670.75594pt x 295.1025pt>
+File: pictures/kappa.png Graphic file (type png)
+ <use pictures/kappa.png>
+[7 <E:/latexworkspace/SDM_V2/pictures/display.png> <E:/latexworkspace/SDM_V2/pi
+ctures/recordsPerday.png (PNG copy)> <E:/latexworkspace/SDM_V2/pictures/records
+Oneday.png (PNG copy)> <E:/latexworkspace/SDM_V2/pictures/kappa.png (PNG copy)>
+] (E:\latexworkspace\SDM_V2\AirQualityEstimation.bbl) [8
+
+]
+(E:\latexworkspace\SDM_V2\AirQualityEstimation.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3124 strings out of 495362
+ 38432 string characters out of 3184023
+ 103978 words of memory out of 3000000
+ 6210 multiletter control sequences out of 15000+200000
+ 18042 words of font info for 69 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,20n,24p,1214b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><D:/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx5.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb>
+<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/CTEX/MiKTeX/fonts
+/type1/public/amsfonts/cmextra/cmex7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D
+:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmib10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cmextra/cmmib5.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.p
+fb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/CTEX/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on AirQualityEstimation.pdf (8 pages, 3960592 bytes).
+PDF statistics:
+ 135 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

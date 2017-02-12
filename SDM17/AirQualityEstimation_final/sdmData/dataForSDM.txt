@@ -1,0 +1,5 @@
+数据说明：
+4天的数据
+
+属性：
+pm25 time x y windx windy temp pressure humidity

@@ -1,0 +1,84 @@
+clear;clc;close all;
+
+
+
+% for model
+Q = 2;
+theta_minu = 20;
+layer_std = 4;
+size_limit = 50;
+iteration = 100;
+
+samples_result = cell(10, 2);
+Kappa = 9; %自底往上数有多少层
+N = 120000;
+
+for samples = [300 500 800 1000 3000 5000 8000 10000 20000 30000]
+    samples = 10000;
+    i = 1;
+    result = cell(floor((N-samples-1000)/(samples+3000)), 1);
+    all_result = cell(floor((N-samples-1000)/(samples+3000)), 1);
+    
+    for idx = 5000:(samples+3000):(N-samples-3000-1)
+        rmse_bst = inf;
+        train_range = idx : (idx+samples-1) ;
+        test_range = (idx + samples) : (idx +samples+floor(samples/3));
+        
+        if samples <= 2 ^ (Kappa-1) 
+            layer_std = 1;
+        else
+            layer_std = ceil(log2(samples))-Kappa+1;
+        end
+        
+        for iteration = 800
+            for theta_minu = 60:60:240
+                for Q = [3 5 7 10]
+                    [Tmp.tmp_est Tmp.tmp_y Tmp.tmp_rmse Tmp.tmp_traintime Tmp.tmp_testtime] = model(train_range, test_range, Q, theta_minu, layer_std, size_limit, iteration);
+                    Tmp.iteration = iteration;
+                    Tmp.layer_std = layer_std;
+                    Tmp.theta_minu = theta_minu;
+                    Tmp.train_range = train_range;
+                    Tmp.test_range = test_range;
+                    Tmp.Q = Q;
+                    all_result{i} = [all_result{i}, Tmp]; 
+                    if(rmse_bst > Tmp.tmp_rmse)
+                        estimation_bst = Tmp.tmp_est;
+                        rmse_bst = Tmp.tmp_rmse;
+                        iteration_bst = iteration;
+                        layer_bst = layer_std;
+                        traintime_bst = Tmp.tmp_traintime;
+                        testtime_bst = Tmp.tmp_testtime;
+                        theta_minu_bst = Tmp.theta_minu;
+                        y_ground_bst= Tmp.tmp_y;
+                        Q_bst = Tmp.Q;
+                    end
+                    fprintf('samples = %d, idx = %d, layer_std = %d, theta_minu = %d, Q = %d, rmse_tmp = %f\n', samples, idx, layer_std, theta_minu, Q, Tmp.tmp_rmse);
+                end
+            end
+        end
+       
+        result{i}.estimation = estimation_bst;
+        result{i}.y_ground = y_ground_bst;
+        result{i}.rmse = rmse_bst;
+        result{i}.traintime = traintime_bst;
+        result{i}.testtime = testtime_bst;
+        result{i}.iteration = iteration_bst;
+        result{i}.layer_std = layer_bst;
+        result{i}.theta_minu = theta_minu_bst;
+        result{i}.train_range = train_range;
+        result{i}.test_range = test_range;
+        result{i}.Q = Q_bst;
+        disp(['rmse = ' num2str(result{i}.rmse)]);
+        i = i+1;
+    end
+    samples_result{samples} = [result all_result];
+    save samples_result samples_result;
+end
+save samples_result;
+% save result_300_150_2 result;
+% [estimation y_ground]
+% draw
+% figure;
+% plot(1:size(test_range, 2), estimation, 'r-');
+% hold on;
+% plot(1:size(test_range, 2), y_ground, 'b*-');
